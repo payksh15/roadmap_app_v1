@@ -20,6 +20,10 @@ gem 'devise'
 gem 'redis-namespace'
 gem 'redis-rails'
 
+gem 'delayed_job_active_record'
+gem 'delayed_job_web'
+gem 'rufus-scheduler'
+
 group :development, :test do
   gem 'byebug'
 end
