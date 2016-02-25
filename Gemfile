@@ -15,8 +15,10 @@ gem "twitter-bootstrap-rails"
 
 
 gem 'thin'
+gem 'devise'
 
-gem 'bunny'
+gem 'redis-namespace'
+gem 'redis-rails'
 
 group :development, :test do
   gem 'byebug'
