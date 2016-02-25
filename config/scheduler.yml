@@ -1,0 +1,4 @@
+update_last_seen_worker:
+  every: ['1m']
+  class: UpdateLastSeenWorker
+  description: "This job update last_seen_at"

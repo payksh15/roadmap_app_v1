@@ -20,6 +20,10 @@ gem 'devise'
 gem 'redis-namespace'
 gem 'redis-rails'
 
+gem 'sidekiq'
+gem 'sinatra', require: false
+gem 'sidekiq-scheduler'
+
 group :development, :test do
   gem 'byebug'
 end
