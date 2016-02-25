@@ -20,6 +20,9 @@ gem 'devise'
 gem 'redis-namespace'
 gem 'redis-rails'
 
+gem 'resque', require: 'resque/server'
+gem 'resque-scheduler'
+
 group :development, :test do
   gem 'byebug'
 end

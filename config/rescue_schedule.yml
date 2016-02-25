@@ -1,0 +1,4 @@
+update_last_seen_job:
+ cron: '*/10 * * * *'
+ class: UpdateLastSeenTask
+ description: 'Update fields last_seen_at'
